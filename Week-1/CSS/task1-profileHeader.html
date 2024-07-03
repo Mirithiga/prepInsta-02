@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile header</title>
+    <style>
+        *{
+            border: 0;
+            padding: 0%;
+        }
+        .div{
+            background-color: bisque;
+        }
+        #profile{
+            border-radius: 50%;
+            width: 30vw;
+        }
+        header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #b4e8f3;
+            border-bottom: 1px solid #110707;
+        }
+        .cover-pic{
+            width: 100%;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+        .cover-photo img {
+            width: 100vw;
+            height: 100%;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            
+        }
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        .user-information p{
+            font-size: large;
+            font: 1em sans-serif;
+        }
+        li{
+            list-style: none;
+            font: 1em arial;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<header>
+    <div class="cover-pic">
+        <img src="https://awesome11.com/wp-content/uploads/2016/05/Fabulous-Facebook-Cover-Photos.jpg" alt="cover_image" style="width: 100vw; height: 40vh;">
+
+        <div class="profile-pic">
+        <img src="https://images.pexels.com/photos/1130624/pexels-photo-1130624.jpeg?auto=compress&cs=tinysrgb&h=350" alt="cover_image" style="border-radius: 50%;"> 
+        </div>
+    </div>
+    <div class="user-information">
+        <h2>Sophia Turner</h2>
+        <p>A woman next door who loves coding and cooking. Serving people with creative solutions and delicious foods for the past 5 years!</p>
+    </div>
+    <ul>
+        <li>TIMELINE</li>
+        <li>FRIENDS</li>
+        <li>PHOTOS</li>
+        <li>ABOUT</li>
+        <li>ARCHIVE</li>
+    </ul>
+    
+</header>
+</html>
