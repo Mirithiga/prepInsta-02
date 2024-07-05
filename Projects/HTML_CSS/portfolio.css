@@ -59,6 +59,10 @@ body{
     font-size: 30px;
 }
 
+.info span{
+    color: orangered;
+}
+
 .section1{
     width: 100vw;
     background-color: gray;
@@ -87,10 +91,14 @@ body{
     font-size: 62px;
     color: black;
 }
+
+.about-content h3 span{
+    color: orangered;
+}
  
 .about-content p{
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     margin: 2em 0 3em;
 }
 
@@ -113,8 +121,12 @@ body{
  
 .skills-content ul li{
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     margin: 2em 0 3em;
+}
+
+.skills-content span{
+    color: orangered;
 }
 
 .left{
@@ -135,7 +147,7 @@ body{
 
 #content1{
     width: 32%;
-    height: 80vh;
+    height: 85vh;
     background-color: burlywood;
     float: left;
     margin-right: 1.5%;
@@ -146,7 +158,7 @@ body{
 
 #content2{
     width: 32%;
-    height: 80vh;
+    height: 85vh;
     background-color: darkkhaki;
     float: left;
     margin-top: 2%;
@@ -155,7 +167,7 @@ body{
 
 #content3{
     width: 32%;
-    height: 80vh;
+    height: 85vh;
     background-color:darksalmon;
     float: right;
     margin-top: 2%;
@@ -167,5 +179,23 @@ body{
     color: black;
     font-size: 42px;
     margin-top: 3%;
-    margin-left: 1%;
+    margin-left: 20px;
+}
+
+.exp-content p{
+    margin-left: 20px;
+    margin-right: 5px;
+    font-size: 25px;
+}
+
+.exp-content ul li{
+    margin-left: 70px;
+    margin-right: 5px;
+    font-size: 25px;
+}
+.exp-content img{
+    width: 100px;
+    height: 100px;
+    margin-left: 180px;
+    margin-top: 50px;
 }
